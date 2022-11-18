@@ -1,0 +1,4 @@
+---
+# tasks file for ansible-role-openvpn
+- include: server.yml
+- include: client.yml

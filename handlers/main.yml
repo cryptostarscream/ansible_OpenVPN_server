@@ -1,0 +1,12 @@
+---
+# handlers file for ansible-role-openvpn
+- name: restart openvpn
+  service:
+    name: openvpn
+    state: restarted
+
+- name: enabled openvpn
+  service:
+    name: openvpn
+    enable: true
+    state: started
